@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.388">
+<testcase classname="login functionality1" name="Feature to test the login functionality using pageobjectmodel" time="0.078">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given user is on login page.................................................failed
+When user enter  and password...............................................skipped
+And click on login button...................................................skipped
+Then user is navigated to the homepage......................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at pageobjectmodel.logindemo2.user_is_on_login_page(logindemo2.java:16)
+	at ✽.user is on login page(file:///C:/Users/nraman/workspace/cucumtest/src/test/resources/Feature/demo1.feature:5)
+]]></failure>
+</testcase>
+</testsuite>
