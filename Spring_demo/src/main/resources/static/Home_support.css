@@ -1,0 +1,82 @@
+
+
+@charset "ISO-8859-1";
+.container{
+	display: flex;
+    background-color: darkseagreen;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.button_action{
+	
+}
+
+.align_button{
+	
+}
+.align_button2{
+	
+}
+.london{
+	display: flex;
+    background-color: palegreen;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.exterro{
+	    position: absolute;
+    top: 5%;
+    width: 10%;
+    left: 7%;
+    height: auto
+}
+
+
+.imgcontainer {
+ 
+        position: absolute;
+    left: 32%;
+    width: 41%;
+    top: 10%;
+}
+
+
+.avatar {
+  position: absolute;
+    left: 14%;
+    width: 60%;
+    top: 5%;
+}
+
+
+.grey_cont {
+    padding: 16px;
+    display: flex;
+    position: absolute;
+    top: 66%;
+    right: 40%;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+}}

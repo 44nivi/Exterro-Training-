@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src=""></script>
+<link rel="stylesheet" href="Home_support.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+</head>
+<body>
+
+
+<!-- 	<div ng-app="myApp" ng-controller="myctr">
+		<form name="myForm">
+			Email:<input type="email" name="myAddress" ng-model="text"> <span
+				ng-show="myForm.myAddress.$error.email">Not a valid e-mail
+				address</span>
+		</form>
+
+
+		<div>
+			<p>
+				welcome <span ng-bind="text"></span>
+			</p>
+
+		</div>
+		<script>
+		var app = angular.module('myApp', []);
+		app.controller('myctr', function($scope) { //AngularJS will invoke the controller with a $scope object.
+    	$scope.firstname = "John";
+      
+		});
+		</script>
+		</div>
+		 -->
+		<!-- <div>
+		<div ng-app="myApp2" ng-controller="myctr2">
+			Enter first name: <input type="text" ng-model="student.firstName"><br>
+			<br> Enter last name: <input type="text"
+				ng-model="student.lastName"><br> <br> You are
+			entering: {{student.fullName2()}}
+	
+
+		<script>
+         var mainApp = angular.module('myApp2', []);
+         
+         mainApp.controller('myctr2', function($scope) {
+            $scope.student = {
+               firstName: "Mahesh",
+               lastName: "Parashar",
+               
+               fullName2: function() {
+                   var studentObject;
+                  studentObject = $scope.student; 
+                  return studentObject.firstName + " " + studentObject.lastName;
+               }
+            };
+         });
+
+          </script></div>
+    	</div> -->
+      <!--   <div ng-app="myApp3" ng-controller="myctr3">
+		{{fullName2("Karuna","krishna")}}
+		</div>
+		<script type="text/javascript">  
+		var app2 = angular.module('myApp3', []);
+		app2.controller('myctr3', function($scope) {
+   
+   		 $scope.fullName2=function(fstname,lstname){
+		return fstname + lstname;
+		}
+		} );
+		</script> -->
+
+	<div ng-app="myApp4" ng-controller="myctr4">
+		<div class="imgcontainer">
+			<img src="sd.jpg" alt="Avatar" class="avatar">
+		</div>
+<!-- 		<div  ng-controller="myctr4">
+ -->	<!-- 	<div class="grey_cont">
+			<label for="uname"><b>Username</b></label> <input type="text"
+				placeholder="Enter Username" name="uname" id="usr" ng-model="user">
+			Welcome user:{{user}}</div></div>
+
+			<script>
+				var app = angular.module('myApp4', []);
+				app.controller('myctr4', function($scope) {   
+			    $scope.user = "John";
+			 
+			    $scope.fullName = function() {
+			        return $scope.user ;
+			    };
+			});
+			</script>
+ -->
+			<label for="psw"><b>Password</b></label> <input type="password"
+				placeholder="Enter Password" id="pwd" name="psw">
+
+			<button type="submit" id="clicker">Login</button>
+			<label> <input type="checkbox" checked="checked"
+				name="remember"> Remember me
+			</label>
+	
+
+
+
+</body>
+</html>
